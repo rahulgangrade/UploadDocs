@@ -1,0 +1,3 @@
+Branching Strategy:
+Initial setup will follow a standard branching model with main, develop, and feature/* branches.
+Detailed branch usage and workflows will be finalized by the project team during implementation.
