@@ -1,0 +1,49 @@
+1️⃣ DBA / Admin User (Infra / DBA Team)
+Purpose
+
+Database administration & maintenance
+
+Backup, recovery, patching, monitoring
+
+Typical Privileges
+
+✔ DBA role (or controlled admin roles)
+✔ Create/alter users, schemas
+✔ Tablespace management
+✔ Backup / restore
+✔ Performance tuning
+
+🚫 Not used by application or testers
+
+🔒 This user is strictly owned by DBA team.
+
+2️⃣ Application Service User (Runtime User)
+Purpose
+
+Used by Spring Boot application
+
+Executes business transactions
+
+Privileges
+
+✔ SELECT, INSERT, UPDATE
+✔ DELETE (only if business logic requires)
+✔ Execute stored procedures / packages
+✔ Access only application schema
+
+🚫 No DDL (CREATE, ALTER, DROP)
+🚫 No access to system tables
+
+Important Note on DELETE
+
+DELETE should be allowed ONLY if
+
+Business flow supports reversals / cleanup
+
+Otherwise prefer:
+
+Soft delete (STATUS = 'INACTIVE')
+
+Archival tables
+
+✅ This user is mandatory.
