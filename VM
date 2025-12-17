@@ -11,3 +11,19 @@ Jenkins CI/CD
 Oracle Database
 
 Logs, backups, monitoring
+
+
+
+We request infrastructure support for setting up environments required for application development and deployment.
+
+The setup includes:
+
+Hosting Spring Boot backend services
+
+Hosting React-based UI
+
+Jenkins for CI/CD pipeline execution
+
+Oracle Database for application data
+
+Kindly provision VM(s) as per organizational standards, security, and best practices for these components.
