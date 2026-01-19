@@ -1,0 +1,17 @@
+What were the challenges with the existing (legacy) framework?
+
+The legacy tool does not allow users to create test cases using customized or business-driven test data.
+
+The legacy tool requires strong technical expertise and scripting knowledge to design, modify, or extend test scenarios.
+
+The legacy tool does not support validation of intermediate field values during the execution of an end-to-end flow.
+
+The legacy tool lacks side-by-side comparison of expected versus actual files, making result analysis manual and error-prone.
+
+End-to-end payment flows are not fully validated across all upstream and downstream systems within the POL ecosystem.
+
+The legacy tool does not provide rule-level coverage or visibility, resulting in gaps in business rule validation.
+
+Optional (More Executive / One-Line Summary)
+
+The existing framework is heavily script-dependent, lacks business-level configurability, and does not provide comprehensive end-to-end validation or rule coverage.
