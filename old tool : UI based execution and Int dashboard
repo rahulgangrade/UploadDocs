@@ -1,0 +1,1 @@
+The existing Cucumber-based framework does not support UI-driven execution, requiring test runs to be triggered via command line or CI/CD by technical users. Execution status and results are spread across logs and reports, with no centralized dashboard for real-time visibility. This increases dependency on automation teams and leads to slower analysis and decision-making.
